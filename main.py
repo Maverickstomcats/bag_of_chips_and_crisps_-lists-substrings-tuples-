@@ -99,12 +99,12 @@ text1 = "Especially in electronic communications, writing in all caps is equival
 text2 = "Never trust a computer you can't throw out a window"
 print(text2[8:26:3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
-print(tex)
+print(text2)
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-print(text3.reverse())
+print(str(text3.reverse())
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-sentence ="Controlling complexity is the essence of programming"
+ sentence = "Controlling complexity is the essence of programming"
 
 #carlos did this one
 
@@ -128,38 +128,38 @@ sentence ="Controlling complexity is the essence of programming"
 #you define a tuple with () instead of [] like you would in lists
 #once you define it, you cannot change it
 #example
-coordinates = (4, 5)
+#coordinates = (4, 5)
 # get the first element in the above tuple
 # print(coordinates[1])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
+#coordindates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
 
 # we use parentheses not [] in tuples
-my_tuple1 = (1, 2, 3, 4)
+#my_tuple1 = (1, 2, 3, 4)
 
 # get the second item in the tuple1 above
-my_tuple = (1, 2, (10, 20), 4)
+#my_tuple = (1, 2, (10, 20), 4)
 
 # get the second item in the 3rd item above
 #hint multidimensional array thinking
 
 # place these numbers in separate variables from the tuple below
-t = (1, 2, 3)
+#t = (1, 2, 3)
 
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
 
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
 
-my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
+#my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
 
 # Convert the following tuple to a list, and store it in a variable called my_list.
 
-my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
+#my_tuple = (1, 2, 3, 2, 3, 1, 3, 2)
 
 #Extract the elements of the following tuple into four variables: a, b, c, d
 
-my_tuple = (1, 2, 3, 4)
+#my_tuple = (1, 2, 3, 4)
 
 ###########################################################################################################################
 # booleans
@@ -222,16 +222,16 @@ my_tuple = (1, 2, 3, 4)
 # Use print to returns the second item of the list called points2, inside the following dictionary.
 
 # If the value 300 were to change in the future, the code should work the same to return the value at that same position. To do this, you must refer to the names of the keys and/or indexes as appropriate.
-my_dict = {
-    "values_1": {
-        "v1": 3,
-        "v2": 6
-    },
-    "points": {
-        "points1": 9,
-        "points2": [10, 300, 15]
-    }
-}
+#my_dict = {
+    #"values_1": {
+    #    "v1": 3,
+   #     "v2": 6
+   # },
+    #"points": {
+    #    "points1": 9,
+    #    "points2": [10, 300, 15]
+#    }
+#}
 # print(my_dict[]) #Use dictionary indices to extract the second item of points2
 
 #challenge 2
@@ -251,4 +251,4 @@ my_dict = {
 
 # my_dict = {"name":"Karen", "surname":"Jurgens", "age":35, "occupation":"Journalist"}
 
-#################################share with instructor when finished#############################
+#################################share with instructor when finished############################
