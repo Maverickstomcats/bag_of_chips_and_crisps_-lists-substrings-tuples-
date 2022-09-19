@@ -75,14 +75,15 @@ print(new_List_2[-1])
 new_List_2.sort
 print(new_List_2)
 ###### find a way to insert a new item at the 3rd position of the list
-new_List_2.insert
+new_List_2.insert(2,"guacamole")
 ###### print the new list out
-
+print(new_List_2)
 ##### reverse the list
-
+new_List_2.reverse()
+print(new_List_2)
 ###### print the new list out
 ###### print out the length of the new list
-
+print(len(new_List_2))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
