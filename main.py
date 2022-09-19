@@ -87,22 +87,21 @@ print(len(new_List_2))
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
 word_list = ["Simple", "is", "better", "than", "complex."]
-print(word_list)
-"".join(word_list)
-print(word_list)
+
+print("              ".join(word_list))
 # Print the following text in uppercase, using the specific string method:
 
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-
+#upper.text1
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
 
 text2 = "Never trust a computer you can't throw out a window"
-
+print(text2[8:26:3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
-
+print(tex)
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-# print(text3.reverse())
+print(text3.reverse())
 
 # Extract the first word of the following sentence using slicing, and display it on the screen:
 sentence ="Controlling complexity is the essence of programming"
