@@ -30,43 +30,52 @@ my_list.insert(3,"pizza")
 my_list.insert(1,"cheese itz")
 my_list.insert(2,"chicken pot pie")
 print(my_list)
-# Add the element "motorcycle" to the following list of means of transportation:
 
-# transportation_means = ["plane", "car", "ship", "bicycle"]
-# transportation_means.append("motorcycle")
-# #append adds an element to the end
-# print(transportation_means)
-# transportation_means.remove("car")
-# print(transportation_means)
-# newTrans = transportation_means.pop()
-# #pop removes the last element
-# print("my new trans is " +newTrans)
-# transportation_means.insert(1,"tesla")
-# print(transportation_means)
-# You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
+my_list_2 = ["ridge racer", "chicken pizza", "2 dollars and 25 cents", 22, 55, 1776, 773]
+print("things i got for some reason " + str(my_list_2))
+
+my_list_3 = my_list.extend(my_list_2)
+print(my_list_3)
+# Add the element "motorcycle" to the following list of means of transportation: 
+
+transportation_means = ["plane", "car", "ship", "bicycle"]
+transportation_means.append("motorcycle")
+#append adds an element to the end
+print(transportation_means)
+transportation_means.remove("car")
+print(transportation_means)
+newTrans = transportation_means.pop()
+#pop removes the last element
+print("my new trans is " +newTrans)
+transportation_means.insert(1,"tesla")
+print(transportation_means)
+#You must not modify the already supplied line of code, but must use the appropriate list method to add a new element.
 
 # here are two lists:
 luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+new_List_2 = luckyNumbers + friends
 ###### print the new list out
-#print(newList2)
+print(new_List_2)
 ###### print out the first item in the list
-
+print(new_List_2[0])
 ###### remove the last item of the new list
-
+new_List_2.remove("lord tennyson")
 ###### print the new list out without the last item
-
+print(new_List_2)
 ###### add three more items to the end of the list
-
+new_List_2.append("pizza hut")
+new_List_2.append("pizza butt")
+new_List_2.append("chicken hut")
 ###### print the last item in the new list
-
+print(new_List_2[-1])
 ###### sort the list
-
+new_List_2.sort
+print(new_List_2)
 ###### find a way to insert a new item at the 3rd position of the list
-
+new_List_2.insert
 ###### print the new list out
 
 ##### reverse the list
