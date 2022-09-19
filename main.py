@@ -7,12 +7,12 @@
 ##############################################################################################################
 # basic review
 # Find and display on the screen which character occupies the fifth position within the following word:
-# computer = "computer"
-# print(computer[4])
+#computer = "computer"
+#print(computer[4])
 
 # Find and display the index of the last occurrence of the word "practice" in the following sentence:
-# newSentence = "In theory, theory and practice are the same. In practice, they are not."
-# print(newSentence.rindex("practice"))
+newSentence = "In theory, theory and practice are the same. In practice, they are not."
+print(newSentence.rindex("practice"))
 
 ###############################################Review############################################################
 #####################################challenge 1################################################################
@@ -42,7 +42,7 @@ friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 ######join both lists together in a new list
 
 ###### print the new list out
-print(newList2)
+#print(newList2)
 ###### print out the first item in the list
 
 ###### remove the last item of the new list
